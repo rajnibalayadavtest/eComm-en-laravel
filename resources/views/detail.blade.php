@@ -8,8 +8,8 @@
         <div class="col-sm-6">
             <a href="/">Go Back</a>
             <h2 class="product-title">{{$product['title']}}</h2>
-            <h2 class="product-price">{{$product['price']}}</h2>
-            <h2 class="product-title">{{$product['title']}}</h2>
+            <h4 class="product-price">Price : {{$product['price']}}</h4>
+            <h2 class="product-description">Description :{{$product['description']}}</h2><br><br>
         </div>
     </div>
   
